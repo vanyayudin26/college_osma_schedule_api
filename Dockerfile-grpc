@@ -25,7 +25,7 @@ WORKDIR /app
 COPY --from=builder /app/main /app/
 
 # Копируем конфигурационный файл
-COPY etc/config.yaml /app/etc/config.yaml
+COPY etc/config.docker.yaml /app/etc/config.yaml
 
 # Устанавливаем владельца и права доступа
 RUN chown api:api /app && chmod +x /app

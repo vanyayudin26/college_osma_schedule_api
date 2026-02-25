@@ -25,7 +25,7 @@ WORKDIR /app
 COPY --from=builder /app/main /app/
 
 # Копируем конфигурационный файл и статические ресурсы
-COPY /etc/config.yaml /app/etc/config.yaml
+COPY /etc/config.docker.yaml /app/etc/config.yaml
 COPY /domain/http/images /app/domain/http/images
 
 # Устанавливаем владельца и права доступа
