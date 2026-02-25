@@ -4,25 +4,24 @@ services:
     container_name: redis
     image: redis:6.2-alpine
     restart: always
-    ports:
-      - '6379:6379'
+    # УБРАЛИ PORTS: - '6379:6379' (база доступна внутри сети Docker)
     command: redis-server --save 20 1 --loglevel warning --requirepass password
+
   http-schedule-server:
     container_name: http-schedule-server
     build:
       context: .
       dockerfile: Dockerfile-http
-    ports:
-      - "80:80"
-      - "443:443"
+    # УБРАЛИ PORTS: - "80:80" и "443:443"
     restart: always
     command: [ "/app/main", "http" ]
+
   grpc-schedule-server:
     container_name: grpc-schedule-server
     build:
       context: .
       dockerfile: Dockerfile-grpc
     ports:
-      - "50051:50051"
+      - "50051:50051" # gRPC можно оставить, он не конфликтует с портом 80
     restart: always
     command: [ "/app/main", "grpc" ]
