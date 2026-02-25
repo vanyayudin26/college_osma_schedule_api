@@ -2,4 +2,4 @@
 !/etc/*example*.yaml
 /.idea
 /vendor
-docker-compose.yml
+docker-compose.yaml
