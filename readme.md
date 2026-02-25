@@ -19,7 +19,7 @@ API предоставляет функциональность HTTP и gRPC с�
 
 ### Использование
 
-Перед запуском необходимо создать файл [config.docker.yaml](etc/config.docker.yaml) в директории [etc](etc) на основе файла [config.docker.example.yaml](etc/config.docker.example.yaml), который находится в той же директории. Вот пример содержимого файла [config.docker.yaml](etc/config.docker.example.yaml):
+Перед запуском необходимо создать файл [config.docker.yaml](etc/config.yaml) в директории [etc](etc) на основе файла [config.docker.example.yaml](etc/config.docker.example.yaml), который находится в той же директории. Вот пример содержимого файла [config.docker.yaml](etc/config.docker.example.yaml):
 
 ```yaml
 redis:
