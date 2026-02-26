@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/vanyayudin26/college_osma_parser/v2"
-	"github.com/vanyayudin26/college_osma_schedule_api/domain/http"
-	"github.com/vanyayudin26/college_osma_schedule_api/redis"
+	"github.com/vanyayudin26/medcolosma_parser/v2"
+	"github.com/vanyayudin26/medcolosma_schedule_api/domain/http"
+	"github.com/vanyayudin26/medcolosma_schedule_api/redis"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

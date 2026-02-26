@@ -1,7 +1,7 @@
 # API ХМТПК Расписание
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/vanyayudin26/college_osma_schedule_api.svg)](https://pkg.go.dev/github.com/vanyayudin26/college_osma_schedule_api)
-[![Go Report Card](https://goreportcard.com/badge/github.com/vanyayudin26/college_osma_schedule_api)](https://goreportcard.com/report/github.com/vanyayudin26/college_osma_schedule_api)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vanyayudin26/medcolosma_schedule_api.svg)](https://pkg.go.dev/github.com/vanyayudin26/medcolosma_schedule_api)
+[![Go Report Card](https://goreportcard.com/badge/github.com/vanyayudin26/medcolosma_schedule_api)](https://goreportcard.com/report/github.com/vanyayudin26/medcolosma_schedule_api)
 ![License](https://img.shields.io/github/license/chazari-x/hmtpk_schedule_api)
 [![Group](https://img.shields.io/badge/VK-Subscripe-blue)](https://vk.com/club218199825)
 

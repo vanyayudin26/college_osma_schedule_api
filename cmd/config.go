@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/vanyayudin26/college_osma_schedule_api/config"
+	"github.com/vanyayudin26/medcolosma_schedule_api/config"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"

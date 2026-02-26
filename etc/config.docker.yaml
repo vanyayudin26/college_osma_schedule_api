@@ -5,9 +5,9 @@ redis:
 
 server:
   http:
-    domain: wcow4w4gg00cww80w8gggggg.45.130.42.231.sslip.io/
+    domain: api.gurubot.pro/medcolosma/
     http_address: :8080    # Меняем на 8080, чтобы не драться с Coolify за 80 порт
     https_address: ""      # Оставляем пустым! SSL возьмет на себя Coolify
   grpc:
-    domain: wcow4w4gg00cww80w8gggggg.45.130.42.231.sslip.io/
+    domain: api.gurubot.pro/medcolosma/
     address: :50051

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/vanyayudin26/college_osma_schedule_api/cmd"
+import "github.com/vanyayudin26/medcolosma_schedule_api/cmd"
 
 func main() {
 	cmd.Execute()

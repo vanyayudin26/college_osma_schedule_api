@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/vanyayudin26/college_osma_parser/v2"
-	"github.com/vanyayudin26/college_osma_schedule_api/config"
-	"github.com/vanyayudin26/college_osma_schedule_api/domain/http/handler"
+	"github.com/vanyayudin26/medcolosma_parser/v2"
+	"github.com/vanyayudin26/medcolosma_schedule_api/config"
+	"github.com/vanyayudin26/medcolosma_schedule_api/domain/http/handler"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/crypto/acme/autocert"
 )

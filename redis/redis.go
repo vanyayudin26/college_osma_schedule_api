@@ -3,7 +3,7 @@ package redis
 import (
 	"time"
 
-	"github.com/vanyayudin26/college_osma_schedule_api/config"
+	"github.com/vanyayudin26/medcolosma_schedule_api/config"
 	"github.com/go-redis/redis/v8"
 	"golang.org/x/net/context"
 )
